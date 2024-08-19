@@ -1,0 +1,68 @@
+body {
+    background-color: #597445;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner {
+    height: 70vh;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    /*  need 3 boxes equally  */
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    
+    color: cornflowerblue;
+
+}
+
+#reset-btn {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+#new-game {
+   
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+#msg{
+ height: 5vmin;
+ font-size: 8vmin;
+ color: burlywood;
+}
+.hide{
+    display: none;
+}
